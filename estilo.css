@@ -1,0 +1,38 @@
+
+
+/* # = ID */
+
+#cor_cinza{
+    color:gray;
+
+}
+
+/* . = class */
+.cor_rosa{ 
+    color:pink;
+
+}
+p{
+    color: green;
+}
+
+
+@media only screen and (min-width: 992px){ /* inicio do layout */
+
+    body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 480px){
+
+    body{
+        background-color:green ;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background-color:yellow ;
+    }
+}
