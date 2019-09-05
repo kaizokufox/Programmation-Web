@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- para linkar o CSS -->
-    <link href="./estilo.css" rel="stylesheet">
-    </head>
-<body>
-  
-    <p class="cor_rosa"> Exemplo HMTL5 </p>
-    <p class="cor_rosa" id="cor_cinza"> Parágrafo 1 </p>
+    <script>alert('tag script dentro do head');</script>
+</head>
+<body onload="alert('body.onload');">
+
+    <script>alert('tag script dentro do body');</script>
+    <script src="script.js"></script>
     
 </body>
 </html>
