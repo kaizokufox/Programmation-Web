@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+  <h:head>
+    <title>Exemplo JSF</title>
+  </h:head>
+  <h:body>
+    <h:form>
+      Modelo: 
+      <h:inputText value="#{automovelBean.modelo}" required="true" requiredMessage="Preencha o Modelo"/><br/>
+      <h:commandButton value="Grava" action="#{automovelBean.grava}"/>
+    </h:form>
+    <h:outputText value="#{automovelBean.resultado}"/>
+  </h:body>
+</html>
+
