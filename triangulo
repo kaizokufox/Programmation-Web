@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <h2>
+        <center>Validador de triângulo</center>
+    </h2>
+    
+    <div align="center">
+        <form>
+                <input type="text" id="cmedida_primeira" placeholder="Digite a Primeira Medida"/>
+                <br/>
+                <input type="text" id="cmedida_segunda" placeholder="Digite a Segunda Medida">
+                <br>
+                <input type="text" id="cmedida_terceira" placeholder="Digite a Terceira Medida">
+                <br>
+                <br>
+                <button type="button" onclick="adicionarTexto();">Calcular</button>
+                <button type="button" onclick="adicionarTexto();">Encerrar</button>
+        </form>
+              <ul id="lista_textos"></ul>
+            </div>
+        
+</body>
+</html>
