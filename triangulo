@@ -4,28 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
+    <div class="card" style="width: 25rem; height: 20rem;">
+                
+                
+             
     <br>
     <h2>
         <center>Validador de triângulo</center>
     </h2>
-    
-    <div align="center">
-        <form>
-                <input type="text" id="cmedida_primeira" placeholder="Digite a Primeira Medida"/>
-                <br/>
-                <input type="text" id="cmedida_segunda" placeholder="Digite a Segunda Medida">
-                <br>
-                <input type="text" id="cmedida_terceira" placeholder="Digite a Terceira Medida">
-                <br>
-                <br>
-                <button type="button" onclick="adicionarTexto();">Calcular</button>
-                <button type="button" onclick="adicionarTexto();">Encerrar</button>
-        </form>
-              <ul id="lista_textos"></ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+               
             </div>
+            <div class="col-sm-4">
+
+                <input type="text" id="cmedida_primeira" placeholder="Primeira Medida"/>
+                <br>
+                <input type="text" id="cmedida_segunda" placeholder="Segunda Medida">
+                
+                <input type="text" id="cmedida_terceira" placeholder="Terceira Medida">
+                
+                <input class="form-control" type="text" placeholder="Resultado">
+             
+                <button type="button" >Calcular</button>
+                <button type="button" >Encerrar</button>
+            </div>
+            <div class="col-sm-4"></div>
+            
+            </div>
+        </div>
+    </div>
+</div>    
+
         
 </body>
 </html>
